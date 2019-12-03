@@ -1,0 +1,4 @@
+	$('#addressSearch').bind('input propertychange', function() { 
+		var adType=document.getElementById("adType").value;       //获取通讯录的类型
+		addressTypeOnClick(adType);
+	});
